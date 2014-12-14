@@ -1,0 +1,142 @@
+body{
+  background-color: #000000;
+  color: #fff;
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+h1,h2,h3,h4,p{
+  font-weight: 100;
+}
+
+hr{
+  height: 8px;
+  background-color: #fff;
+}
+
+a{
+  color: #ff3300;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #ff3300;
+  /*padding:1px;*/
+}
+
+.column-span{
+  /*background-color: red;*/
+  width: 16%;
+  margin-top: 6%;
+  margin-left: 10%;
+  z-index:100;
+  position: fixed;
+}
+
+.center{
+  text-align: center;
+}
+
+.styled-title{
+  line-height: 2em;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  letter-spacing: 8px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.desc{
+  margin-top: 10%;
+  /*font-size: 15px;*/
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.bold{
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 3em;
+  text-transform: uppercase;
+}
+
+.circle{
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  font-size:20px;
+  /*color:#fff;*/
+  line-height:100px;
+  text-align:center;
+  background:#ff3300;
+  margin: auto;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.walker{
+  background: url('../img/walker.png');
+  background-size: 100% 100%;
+  -webkit-animation: heartbeat 1s 3 100ms;
+  -moz-animation: heartbeat 1s 3 100ms;
+  animation: heartbeat 1s 3 100ms;
+}
+
+.walker:hover{
+  background: #ff3300;
+  color: #fff;
+  /*background-size: 100% 100%;*/
+}
+
+
+.oscilliation{
+  background: url('../img/oscilliation.png');
+  background-size: 100% 100%;
+  -webkit-animation: heartbeat 1s 3 100ms;
+  -moz-animation: heartbeat 1s 3 100ms;
+  animation: heartbeat 1s 3 100ms;
+}
+
+.oscilliation:hover{
+  background: #ff3300;
+  color: #fff;
+  /*background-size: 100% 100%;*/
+}
+
+
+.black{
+  color: #000;
+}
+
+.black-fill{
+  background-color: #000;
+}
+
+.thick{
+  font-weight: 700;
+}
+
+.button-text{
+  font-size: 0.6em;
+}
+
+@keyframes heartbeat {
+  50%{
+    opacity: 0.6;
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@-moz-keyframes heartbeat {
+  50% {
+    opacity: 0.6;
+  }
+}
